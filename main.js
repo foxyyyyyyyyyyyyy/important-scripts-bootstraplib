@@ -17,18 +17,17 @@ function loadBootstrapCSS() {
     document.head.appendChild(link);
 }
 
-// Function to load Ionicons CSS
-function loadIoniconsCSS() {
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.href = 'https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.10/css/ionicons.min.css';
-    document.head.appendChild(link);
-}
-
 // Function to load Bootstrap JS
 function loadBootstrapJS() {
     var script = document.createElement('script');
     script.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js';
+    document.body.appendChild(script);
+}
+
+// Function to load IonIcons JS
+function loadIonIconsJS() {
+    var script = document.createElement('script');
+    script.src = 'https://unpkg.com/ionicons@latest/dist/ionicons.js';
     document.body.appendChild(script);
 }
 
@@ -42,7 +41,7 @@ function loadNCDevtoolsJS() {
 // Function to load the library
 function loadLibrary() {
     loadBootstrapCSS();
-    loadIoniconsCSS();
+    loadIonIconsJS();
     loadBootstrapJS();
     loadNCDevtoolsJS();
 }
