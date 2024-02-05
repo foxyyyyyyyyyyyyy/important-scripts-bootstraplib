@@ -13,7 +13,7 @@
 function loadBootstrapCSS() {
     var link = document.createElement('link');
     link.rel = 'stylesheet';
-    link.href = 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css';
+    link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css';
     document.head.appendChild(link);
 }
 
@@ -28,7 +28,7 @@ function loadIoniconsCSS() {
 // Function to load Bootstrap JS
 function loadBootstrapJS() {
     var script = document.createElement('script');
-    script.src = 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js';
+    script.src = 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js';
     document.body.appendChild(script);
 }
 
