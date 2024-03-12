@@ -9,9 +9,10 @@ Here're some of the project's best features:
 
 *   Easy multiply your div
 *   Easy organise your rows and Images
+*   Implement some usefull tools
 
 <h2>🛠️ Installation Steps:</h2>
-
+I will soon add an url so you can easylie implement it without downloading.
 <p>1. Integrate the File in your Project</p>
 
 <p>2. Finished🎉</p>
