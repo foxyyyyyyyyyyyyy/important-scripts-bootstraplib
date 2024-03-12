@@ -4,9 +4,6 @@
 
 <p id="description">This is a simple devtools library that can be used to load Bootstrap and Ionicons CSS and Bootstrap JS. It also loads the NC Devtools JS file which contains simple Devtools for Bootstrap.</p>
 
-<h2>🚀 Demo</h2>
-
-  
   
 <h2>🧐 Features</h2>
 
