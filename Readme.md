@@ -1,7 +1,5 @@
 <h1 align="center" id="title">Bootstrap Devtools</h1>
 
-<p align="center"><img src="" alt="project-image"></p>
-
 <p id="description">This is a simple devtools library that can be used to load Bootstrap and Ionicons CSS and Bootstrap JS. It also loads the NC Devtools JS file which contains simple Devtools for Bootstrap.</p>
 
   
